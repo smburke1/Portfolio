@@ -445,7 +445,7 @@ padding: 20px;
     background-size: cover;
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     padding-bottom: 70px;
 }
     .contact-box {
@@ -492,4 +492,8 @@ padding: 20px;
         .input-field {
             width:90%;
         }
+    }
+    footer{
+        background: linear-gradient(to left, #acdaf7, #e0ecf1);
+        height: 25px;
     }
