@@ -294,7 +294,7 @@ h2 {
 }
   
 .flip-card-front-landingpage {
-    background-image: url("images/landingpage1.png");
+    background-image: url("images/Basicbartending.png");
     background-size: cover;
 }
   
@@ -457,7 +457,7 @@ padding: 20px;
         transition: all 1s;
     }
     .contact-box:hover {
-        transform: scale(1.1);
+        transform: scale(1.03);
     }
 
     form {
