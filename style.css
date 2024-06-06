@@ -51,13 +51,13 @@ body{
       right: 0;
       top: 0;
     }
+    
     .topnav.responsive a {
       float: none;
       display: block;
       text-align: left;
     }
 }
-
 
 /* Introduction */
 
@@ -69,7 +69,7 @@ body{
     height: 80vh;
     padding: 20vh 10vw;
     background-attachment: fixed;
-    }
+}
 
 .overlay{
     background: linear-gradient(to left, #111, #444);
@@ -82,13 +82,14 @@ body{
     left: 0px;
     opacity: .85;
 }
+
 h1 {
     font-size: 4em;
-  }
+}
 
 h2 {
     padding-top:10px
-    }
+}
 
 #lastname {
     color: #005b94;
@@ -97,12 +98,15 @@ h2 {
 .social-icons {
     padding-top: 1em;
 }
+
 .social-icons ul {
     text-align: center;
 }
+
 .social-icons li {
     display: inline-block;
 }
+
 .social-icons a {
     padding: 0.5rem;
     color: #fff;
@@ -143,20 +147,24 @@ h2 {
     padding: 20px;
     color: #005b94;
 }
+
 .skills-flex{
     display: flex;
     justify-content: center;
     flex: row;
 }
+
 .skills-flex div{
     padding: 15px 5%;
     text-align: center;
 }
+
 .skills svg{
     height: 70px;
     width: 70px;
     transition: .5s;
 }
+
 .skills svg:hover{
     transform: scale(1.1);
 }
@@ -173,6 +181,7 @@ h2 {
         width: 50px;
     }
 }
+
 @media screen and (max-width: 400px) {
     .skills{
         height: 300px;
@@ -198,9 +207,11 @@ h2 {
     padding: 20px;
     color: #fff;
 }
+
 .portfolio h3{
     color: #005b94
 }
+
 .flex{
     width: 100%;
     display: flex;
@@ -216,6 +227,7 @@ h2 {
     padding: 5px;
     margin-top: 50px;
 }
+
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -224,19 +236,24 @@ h2 {
     transition: transform 1s;
     transform-style: preserve-3d;
 }
+
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
+
 .flip-card-inner h3{
     padding-top: 5px;
 }
+
 .flip-card-inner p{
     padding:10px;
 }
+
 .flip-card-inner svg{
     width: 40px;
     height: 40px;
 }
+
 .button{
     position: absolute;
     bottom: 10px;
@@ -247,9 +264,11 @@ h2 {
     .portfolio{
         height: 1200px;
     }
+
     .flex{
         flex-direction: column;
-    }   
+    }  
+
     .flip-card {
         width: 100%;
         height:300px;
@@ -257,13 +276,16 @@ h2 {
         padding-right: 25%;
     }
 }
+
 @media screen and (max-width: 650px) {
     .portfolio{
         height: 1200px;
     }
+
     .flex{
         flex-direction: column;
     }   
+
     .flip-card {
         width: 100%;
         height: 300px;
@@ -271,6 +293,7 @@ h2 {
         padding-right: 20%;
     }
 }
+
 @media screen and (max-width: 500px) {
     .portfolio{
         height: 1100px;
@@ -281,11 +304,10 @@ h2 {
         padding-left: 10%;
         padding-right: 10%;
     }
-
 }
 
-
 /* Portfolio Landing Page */
+
 .flip-card-front-landingpage, .flip-card-back-landingpage {
     position: absolute;
     width: 100%;
@@ -315,9 +337,9 @@ h2 {
     background: #005b94;
     color: #eee;
 }
-
   
 /* Portfolio Weather App */
+
 .flip-card-front-weatherapp, .flip-card-back-weatherapp{
     position: absolute;
     width: 100%;
@@ -349,6 +371,7 @@ h2 {
 }
 
 /* Portfolio RPS */
+
 .flip-card-front-rps, .flip-card-back-rps {
     position: absolute;
     width: 100%;
@@ -379,12 +402,6 @@ h2 {
     color: #eee;
 }
 
-
-
-
-
-
-
 /* Resume */
 
 .resume {
@@ -400,15 +417,15 @@ h2 {
 .resume h3{
     padding: 20px;
     background: linear-gradient(to left, #111, #444);
-
     color: #fff
 }
 
 .resume-div-1{
-background: linear-gradient(to left, #acdaf7, #e0ecf1);
-font-size: 1.3em;
-padding: 20px;
+    background: linear-gradient(to left, #acdaf7, #e0ecf1);
+    font-size: 1.3em;
+    padding: 20px;
 }
+
 .resume-div-1 li{
     margin-left: 20px;
 }
@@ -418,26 +435,31 @@ padding: 20px;
         height:900px;
     }
 }
+
 @media screen and (max-width: 640px) {
     .resume{
         height:950px;
     }
 }
+
 @media screen and (max-width: 600px) {
     .resume{
         height:1050px;
     }
 }
+
 @media screen and (max-width: 540px) {
     .resume{
         height:1200px;
     }
 }
+
 @media screen and (max-width: 385px) {
     .resume{
         height:130px;
     }
 }
+
 /* Contact*/
 
 .contact {
@@ -448,52 +470,59 @@ padding: 20px;
     margin-bottom: 0px;
     padding-bottom: 70px;
 }
-    .contact-box {
-        height: 500px;
-        width: 500px;
-        background: #ddd;
-        box-shadow: 0 0 20px 0 #000;
-        margin-top: 70px;
-        transition: all 1s;
-    }
-    .contact-box:hover {
-        transform: scale(1.03);
-    }
 
-    form {
-        margin: 35px;
-    }
+.contact-box {
+    height: 500px;
+    width: 500px;
+    background: #ddd;
+    box-shadow: 0 0 20px 0 #000;
+    margin-top: 70px;
+    transition: all 1s;
+}
+
+.contact-box:hover {
+    transform: scale(1.03);
+}
+
+form {
+    margin: 35px;
+}
+
+.input-field {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #005b94;
+    border-radius: 10px;
+    outline: none;
+}
+
+.contact-box textarea{
+    padding-bottom: 80px;
+}
+
+.contact-box button{
+    background: #005b94;
+    padding: 14px 16px;
+    color: #eee;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.contact-box button:hover{
+    background: #eee;
+    color: #005b94;
+    transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 385px) {
     .input-field {
-        width: 400px;
-        height: 40px;
-        margin-top: 20px;
-        padding: 10px;
-        border: 1px solid #005b94;
-        border-radius: 10px;
-        outline: none;
+        width:90%;
     }
-    .contact-box textarea{
-        padding-bottom: 80px;
-    }
+}
 
-    .contact-box button{
-        background: #005b94;
-        padding: 14px 16px;
-        color: #eee;
-        margin-top: 20px;
-        cursor: pointer;
-    }
-    .contact-box button:hover{
-        background: #eee;
-        color: #005b94;
-        transition-duration: 0.3s;
-    }
-    @media screen and (max-width: 385px) {
-        .input-field {
-            width:90%;
-        }
-    }
-    footer{
-        background: linear-gradient(to left, #acdaf7, #e0ecf1);
-        height: 25px;
-    }
+footer{
+    background: linear-gradient(to left, #acdaf7, #e0ecf1);
+    height: 25px;
+}
